@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="JoinMapper">
+	<insert id="insertJoin" parameterType="join">
+		INSERT INTO ACC VALUES(A_ID.NEXTVAL, #{userid}, #{pw}, SYSDATE)
+	</insert>
+	
+	<select id="selectJoin" parameterType="join" resultType="int">
+		SELECT COUNT(*) FROM ACC WHERE ACC_ID = #{acc_id}
+	</select>
+</mapper>
