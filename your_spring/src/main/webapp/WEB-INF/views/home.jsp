@@ -2,13 +2,14 @@
 <html>
 <head>
 	<title>MeMeMe :)</title>
+	<link rel="stylesheet" href="${path }/resources/css/home.css">
+<script src="//code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
 	<c:import url="./header.jsp" />
-	<div>
+	<div class="home">
 		<ul>
-			<li><a>Board 01</a></li>
-			<li><a>Board 02</a></li>
+			<li><a href="./board">Board</a></li>
 		</ul>
 	</div>
 </body>

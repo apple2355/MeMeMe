@@ -207,8 +207,7 @@
 		    <artifactId>commons-io</artifactId>
 		    <version>2.11.0</version>
 		</dependency>
-		
-		<!-- POJO 기반의 자바 객체들을 JSON으로 변환해주는 라이브러리?? -->
+
 		<!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
 		<dependency>
 		    <groupId>com.fasterxml.jackson.core</groupId>
